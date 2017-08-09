@@ -312,7 +312,7 @@ class Environment(object):
                     violation = 4 # Accident
                 elif inputs['oncoming'] == 'right': # Oncoming car turning right
                     violation = 4 # Accident
-            else: # Green light
+            else:# Green light
                 if inputs['oncoming'] == 'right' or inputs['oncoming'] == 'forward': # Incoming traffic
                     violation = 3 # Accident
                 else: # Valid move!
